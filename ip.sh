@@ -65,12 +65,12 @@ echo -e "	  ██╗██████╗
 				read curl
 				
 				
-				if [ "$curl" = "[Yy]" ]
+				if [ "$curl" = "Y" ]
 				then
 				
 					sudo apt install net-tools
 				
-				elif [ "$curl" = "[Nn]" ]
+				elif [ "$curl" = "N" ]
 				then
 				
 					echo "Saliendo..."
